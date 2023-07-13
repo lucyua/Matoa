@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230713141809">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+							<li class="menu__item"><a href="" class="menu__link">News</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-popup="#search" href="" class="actions-header__search icon-search"></a>
+					<a data-da=".menu__body, 400" href="" class="actions-header__login icon-user">Log In</a>
+					<a href="" class="actions-header__cart icon-cart"></a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="search" aria-hidden="true" class="popup popup__search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="get" class="saerch-form">
+						<div class="search-form__title title title--small">Search</div>
+						<div class="search-form__body">
+							<div class="search-form__line">
+								<input data-required autocomplete="off" type="text" name="form[]" data-error="Enter your request" placeholder="Search" class="search-form__input input">
+							</div>
+							<button type="submit" class="search-form__button button button--small icon-search"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230713141809"></script>
+</body>
+
+</html>
